@@ -1,8 +1,10 @@
+
 ## Table of Contents
 
 - [Project Description](#Project_Description)
 - [Installation](#Installation)
-- [Usage](#Usage)
+- [Results](#Results)
+- [Future Work](#future_work)
 - [License](#license)
 
 
@@ -66,9 +68,16 @@ python3 version_17.py
 Replace `version_17.py` with your desired version. This will start the program and prompt you for a topic. Once you enter a topic, the program will begin generating your thesis text and feedback. The output will be saved to a .txt file with a timestamped filename. Note that to access the output you will need to specify an output location in the function `write_output_to_file`. Running the program may take some time depending on the length and complexity of the input topic, print statement will signal what function is being completed.
 
 
+## Results <a name="Results"></a>
+The result from running the program will vary from model to model depending on what features you want to be included in the final output. These differences are noted in modlel versions of the readme.md file. 
 
 
-## Usage <a name="Usage"></a>
 
-highly custimizable:
-Highest scoring and most cohesive prompts included in current code
+## Future Work  <a name="future_work"></a>
+- Have Output be a latex document formatted for Claremont McKenna College Senior Thesis Submission. 
+- Incorporate Plagarism check using Turn-it-in API 
+- Make project pip installable
+
+
+
+## License
